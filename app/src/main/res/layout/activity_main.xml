@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE6E8"
+    tools:context=".Intro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="800dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="-185dp"
+            app:srcCompat="@drawable/soton"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+        <Button
+            android:id="@+id/btn_player"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:textColor="@color/putih"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Player" />
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:textColor="@color/putih"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Next Match" />
+        <Button
+            android:id="@+id/btn_last"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:textColor="@color/putih"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Last Match" />
+
+    </LinearLayout>
+
+</LinearLayout>

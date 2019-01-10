@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">The Saints</string>
+    <string name="title_activity_beranda">Beranda</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="name">The Saints</string>
+    <string name="desc">Southampton merupakan sebuah tim sepak bola Inggris yang didirikan tahun 1898.</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">The Saints</string>
+    <string name="nav_header_subtitle">Southampton FC</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
